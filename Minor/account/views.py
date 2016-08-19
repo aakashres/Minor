@@ -24,7 +24,7 @@ class Signup(View):
 
             user = authenticate(username=user.username, password=password)
             login(request, user)
-            return HttpResponseRedirect('/admin')
+            return redirect ('story:home')
         context = {
             'registration_form':registration_form,
         }
@@ -46,7 +46,7 @@ class Signin(View):
             user = authenticate(username=username, password=password)
             if user and user.is_active:
                 login(request, user)
-                return HttpResponseRedirect('/admin')
+                return redirect ('story:home')
         else:
             print(form.errors)
 
@@ -60,7 +60,7 @@ class Signout(View):
     def get(self, request):
         logout(request)
         messages.success(request, "Logged Out Succesfully")
-        return redirect ('user:signin')
+        return redirect ('story:index')
 
 
 class Profile(View):

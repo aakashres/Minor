@@ -5,15 +5,45 @@
 {% endblock head_title%}
 
 {% block main %}
-    <form method="POST" action="" enctype="multipart/form-data">
-    {% csrf_token %}
-        {{user_form.first_name}}
-        {{user_form.last_name}}
-        {{user_form.email}}
-        {{profile_form.bio}}
-        {{profile_form.dob}}
-        {{profile_form.photo}}
-        {{profile_form.gender}}
-        <button class="btn btn-lg btn-primary btn-block blue" type="submit">Update</button>
-    </form>
+<div class="contactFormWrap customForms customForm">
+  <div class="container">
+   <form role="form" method="POST" action="" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="form">
+       <div class="col-xs-12 col-sm-4 user">
+          <i class="fa fa-pencil icon"></i>
+            {{user_form.first_name}}
+        </div>
+         <div class="col-xs-12 col-sm-4 user">
+          <i class="fa fa-pencil icon"></i>
+          {{user_form.last_name}}
+        </div>
+         <div class="col-xs-12 col-sm-4 user">
+          <i class="fa fa-envelope icon"></i>
+          {{user_form.email}}
+        </div>
+        <div class="col-xs-12 col-sm-4 misc">
+          <i class="fa fa-birthday-cake icon   "></i>
+          {{profile_form.dob}}
+        </div>
+        <div class="col-xs-12 col-sm-4 misc">
+          <i class="fa fa-image icon"></i>
+          {{profile_form.photo}}
+        </div>
+        <div class="col-xs-12 col-sm-4 misc">
+          <i class="fa fa-transgender icon"></i>
+
+          {{profile_form.gender}}
+        </div>
+        <div class="col-xs-12 misc">
+          <i class="fa fa-info icon"></i>
+          {{profile_form.bio}}
+        </div>
+           <div class="col-xs-12 text-center">
+          <button class="btn btn-color-full" type="submit"><span>Update</span></button>
+        </div>
+      </div>
+  </form>
+  </div>
+</div>
 {% endblock main %}

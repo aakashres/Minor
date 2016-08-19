@@ -16,31 +16,38 @@ class StoryForm(forms.ModelForm):
         ]
         widgets = {
             "title": forms.TextInput(attrs={
+                'class':'input',
                 'required': 'True',
                 'placeholder': 'Title',
             }),
             "photo": forms.ClearableFileInput(attrs={
+                'class':'input',
                 'placeholder': 'Image',
             }
             ),
             "description": forms.Textarea(attrs={
+                'class':'input',
                 'required':'true',
                 'placeholder': 'Description',
             }
             ),
             "content": forms.Textarea(attrs={
+                'class':'input',
                 'required': 'True',
                 'placeholder': 'Content',
             }
             ),
             "category": forms.TextInput(attrs={
+                'class':'input',
                 'required':'true',
                 'placeholder': 'Categories',
             }),
             "draft": forms.CheckboxInput(attrs={
+                'class':'input',
             }),
 
             "tag": forms.TextInput(attrs={
+                'class':'input',
                 'required':'true',
                 'placeholder': 'Tags',
             }),

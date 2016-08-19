@@ -79,16 +79,19 @@ class UserForm(forms.ModelForm):
         ]
         widgets = {
             "first_name": forms.TextInput(attrs={
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'First Name',
             }
             ),
             "last_name": forms.TextInput(attrs={
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'Last Name',
             }
             ),
             "email": forms.TextInput(attrs={
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'example@example.com',
             }
@@ -107,21 +110,23 @@ class ProfileForm(forms.ModelForm):
         ]
         widgets = {
             "bio": forms.Textarea(attrs={
+                'class':'input',
                 'placeholder': 'Bio',
             }
             ),
             "photo": forms.FileInput(attrs={
+                'class':'input',
                 'placeholder': 'Image',
             }
             ),
             "dob": forms.DateInput(attrs={
-                'class': 'form-control',
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'YYYY-MM-DD',
             }
             ),
             "gender": forms.Select(attrs={
-                'class': 'form-control',
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'Gender'
             })
@@ -134,6 +139,7 @@ class MessageForm(forms.ModelForm):
         fields = ["content"]
         widgets = {
             "content": forms.Textarea(attrs={
+                'class':'input',
                 'required': 'true',
                 'placeholder': 'Message'
             }),

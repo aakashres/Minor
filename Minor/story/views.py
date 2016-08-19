@@ -26,6 +26,10 @@ class Create(View):
         if form.is_valid():
             instance = form.save(commit=False)
             instance.author = author
+            if request.POST.get('draft','off')=='on':
+                instance.draft = True
+            else:
+                instance.draft = False
             instance.save()
             return HttpResponseRedirect(instance.get_absolute_url())
         context = {
@@ -50,6 +54,10 @@ class Update(View):
         form = StoryForm(request.POST or None, request.FILES or None, instance=story)
         if form.is_valid():
             instance = form.save(commit=True)
+            if request.POST.get('draft','off')=='on':
+                instance.draft = True
+            else:
+                instance.draft = False
             instance.save()
             return HttpResponseRedirect(story.get_absolute_url())
 
