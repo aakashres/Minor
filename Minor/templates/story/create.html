@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head_title %}{{ author.user.username }} | Create Story {% endblock head_title %}
+
+{% block main %}
+    <form method="POST" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+            {{ form.title }}<br/>
+            {{ form.description }}<br/>
+            {{ form.photo }}<br/>
+            {{ form.content }}<br/>
+            {{ form.tag }}<br/>
+            {{ form.category }}<br/>
+            {{ form.draft }}<br/>
+        <button type="submit">Create</button>
+    </form>
+{% endblock main %}

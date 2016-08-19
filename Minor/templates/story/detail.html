@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block head_title %}{{ story.title }} | {{ block.super }} {% endblock head_title %}
+{% block style %}
+    <style>
+    .rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0px;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('{% static 'star.png' %}') 0 -16px;
+}
+
+/* Just for the demo */
+body {
+    margin: 20px;
+}
+    </style>
+
+{% endblock style %}
+
+{% block main %}
+    {{ story.photo }}<br/>
+    {{ story.title }}<br/>
+    {{ story.description|linebreaks }}<br/>
+    {{ story.content }}<br/>
+    {{ story.tag }}<br/>
+    {{ story.category }}<br/>
+    {% if request.user.is_authenticated %}
+    <form method="POST" action="">{% csrf_token %}
+         <span class="rating">
+                <input type="radio" class="rating-input"
+                        id="rating-input-1-5" name="rating-input-1" value="5"/>
+                <label for="rating-input-1-5" class="rating-star"></label>
+                <input type="radio" class="rating-input"
+                        id="rating-input-1-4" name="rating-input-1" value="4"/>
+                <label for="rating-input-1-4" class="rating-star"></label>
+                <input type="radio" class="rating-input"
+                        id="rating-input-1-3" name="rating-input-1" value="3"/>
+                <label for="rating-input-1-3" class="rating-star"></label>
+                <input type="radio" class="rating-input"
+                        id="rating-input-1-2" name="rating-input-1" value="2"/>
+                <label for="rating-input-1-2" class="rating-star"></label>
+                <input type="radio" class="rating-input"
+                        id="rating-input-1-1" name="rating-input-1" value="1"/>
+                <label for="rating-input-1-1" class="rating-star"></label>
+        </span><br/>
+        {{ form.comment }}<br/>
+        <button type="submit">Comment</button>
+    </form>
+     {% else %}
+        <p>You must login to comment </p>
+    {% endif %}
+    {% for comment in story.response %}
+        <blockquote>
+            {{ comment.comment }}
+            <footer>via {{ comment.commenter }} | {{ comment.created_at|timesince }} ago |
+            {% if comment.children.count > 0 %}{{ comment.children.count }}{% if comment.children.count > 1 %} Replies{% else %} Reply{% endif %} | {% endif %}
+            <a class='comment-reply-btn' href='#'>Reply</a>
+            <div class='comment-reply'>
+                {% for child_comment in comment.children %}
+                    <blockquote>
+                        <p>{{ child_comment.comment }}</p>
+                        <footer>via {{ child_comment.commenter }} | {{ child_comment.created_at|timesince }} ago</footer>
+                    </blockquote>
+                {% endfor %}
+                {% if request.user.is_authenticated %}
+                    <form method="POST" action="."> {% csrf_token %}
+                        {{ form.comment }}<br/>
+                        <input type='hidden' name='parent_id' value='{{ comment.id }}'>
+                        <button type="submit">Reply</button>
+                    </form>
+                {% else %}
+                    <p>You must login to comment </p>
+                {% endif %}
+            </div>
+        </blockquote>
+        <hr/>
+    {% endfor  %}
+{% endblock main %}

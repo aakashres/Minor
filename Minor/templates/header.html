@@ -1,0 +1,175 @@
+{% load staticfiles %}
+
+<header id="header">
+    <!-- Main navigation bar -->
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Mobile navbar toggler -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <nav id="navbar" class="collapse navbar-collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav navigation">
+                    <li class="hoverExtend "><a href="{% url 'story:home' %}" title="#">Home</a></li>
+                    <li class="hoverExtend "><a href="{% url 'story:trending' %}" title="#" >Trending</a></li>
+                    <li class="hoverExtend "><a href="{% url 'story:recommended' %}" title="#" >Recommended</a></li>
+                    <li class="hoverExtend"><a href="{% url 'story:about' %}" title="#">About Us</a></li>
+                    <li class="hoverExtend"><a href="{% url 'story:contact' %}" title="#">Contact Us</a></li>
+                </ul>
+                <!-- Search, Share, Language -->
+                <ul class="nav navbar-nav navigation misc">
+                    <li>
+                        <a href="#" title="#" data-toggle="modal" data-target="#searchModal"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="dropdown onHover">
+                        <a href="#" title="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <i class="fa fa-share-alt"></i>
+                        </a>
+                        <!-- Social dropdown -->
+                        <div class="dropdown-menu socials" role="menu">
+                            <ul>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-tumblr"></i></a></li>
+                                <li><a href="#" title="#" class="i"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    {% if not request.user.is_active %}
+                        <li class="hoverExtend dropdown onHover fullwidth">
+                            <a href="#" title="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sign In/Up</a>
+
+                            <!-- Templates dropdown -->
+                            <div class="dropdown-menu layouts" role="menu">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12">
+                                        <ul>
+                                            <li><a href="{% url 'user:signin' %}" title="#">Sign In</a></li>
+                                            <li><a href="{% url 'user:signup' %}" title="#">Sign Up</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="hoverExtend dropdown onHover fullwidth">
+                            <a href="#" title="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ request.user }}</a>
+
+                            <!-- Templates dropdown -->
+                            <div class="dropdown-menu layouts" role="menu">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12">
+                                        <ul>
+                                            <li><a href="{% url 'user:profile' request.user|slugify %}" title="#">Profile</a></li>
+                                            <li><a href="{% url 'user:update' request.user|slugify %}" title="#">Update</a></li>
+                                            <li><a href="{% url 'story:create' request.user|slugify %}" title="#">Write</a></li>
+                                            <hr/>
+                                            <li><a href="{% url 'user:signout' %}" title="#">Sign Out</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logoWrap">
+        <div class="container">
+            <h1>
+                <a href="{% url 'story:index' %}" title="#">
+                    <img src="{% static 'img/logo.png'%}" alt="#" width="208" height="108" class="img-responsive">
+                    <strong>Blogee</strong>
+                </a>
+            </h1>
+        </div>
+    </div>
+
+    <!-- Categories navigation -->
+    <nav class="categoriesNavigation">
+        <div class="container">
+            <ul>
+                <li class="hoverExtend active"><a href="index.html" title="#">All</a></li>
+                <li class="hoverExtend"><a href="template-personal.html" title="#">Personal</a></li>
+                <li class="hoverExtend"><a href="template-magazine.html" title="#">News magazine</a></li>
+                <li class="hoverExtend"><a href="template-design.html" title="#">Design inspiration</a></li>
+                <li class="hoverExtend"><a href="template-recipe.html" title="#">Recipe</a></li>
+                <li class="hoverExtend"><a href="template-craft.html" title="#">Craft</a></li>
+                <li class="hoverExtend"><a href="template-travel.html" title="#">Travel</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="modal fade in" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="c">
+                            <input type="text" class="input" placeholder="Type search term...">
+                            <button class="btn btn-color-full" type="submit"><span>Search</span></button>
+                        </div>
+
+                        <a href="#" title="#" class="advanced js-advanced-search"><span>Advanced search</span></a>
+
+                        <div class="c advancedWrap container-fluid">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 i">
+                                    <select class="js-select">
+                                        <option>Choose Category</option>
+                                        <option>Creative</option>
+                                        <option>Fashion</option>
+                                        <option>Architecture</option>
+                                        <option>Music</option>
+                                        <option>Nature</option>
+                                        <option>Lifestyle</option>
+                                        <option>Craft</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6 col-md-3 i">
+                                    <select class="js-select">
+                                        <option>Month</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6 col-md-3 i">
+                                    <select class="js-select">
+                                        <option>Year</option>
+                                        <option>2015</option>
+                                        <option>2014</option>
+                                        <option>2013</option>
+                                        <option>2012</option>
+                                        <option>2011</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>

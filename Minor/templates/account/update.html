@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block head_title %}
+    Update | {{instance.user.username}}
+{% endblock head_title%}
+
+{% block main %}
+    <form method="POST" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+        {{user_form.first_name}}
+        {{user_form.last_name}}
+        {{user_form.email}}
+        {{profile_form.bio}}
+        {{profile_form.dob}}
+        {{profile_form.photo}}
+        {{profile_form.gender}}
+        <button class="btn btn-lg btn-primary btn-block blue" type="submit">Update</button>
+    </form>
+{% endblock main %}
