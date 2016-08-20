@@ -115,7 +115,8 @@ class Delete(View):
 
 class Index(View):
     def get(self, request):
-        context = {}
+        context = {
+        }
         return render(request,'story/index.html',context)
 
 class Home(View):

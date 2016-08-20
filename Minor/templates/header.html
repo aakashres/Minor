@@ -54,8 +54,8 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12">
                                         <ul>
-                                            <li><a href="{% url 'user:signin' %}" title="#">Sign In</a></li>
-                                            <li><a href="{% url 'user:signup' %}" title="#">Sign Up</a></li>
+                                            <li><a href="{% url 'user:signin' %}" title="#"><i class="fa fa-sign-in icon"></i> Sign In</a></li>
+                                            <li><a href="{% url 'user:signup' %}" title="#"><i class="fa fa-sign-in icon"></i> Sign Up</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -70,11 +70,11 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12">
                                         <ul>
-                                            <li><a href="{% url 'user:profile' request.user|slugify %}" title="#">Profile</a></li>
-                                            <li><a href="{% url 'user:update' request.user|slugify %}" title="#">Update</a></li>
-                                            <li><a href="{% url 'story:create' request.user|slugify %}" title="#">Write</a></li>
+                                            <li><a href="{% url 'user:profile' request.user|slugify %}" title="#"><i class="fa fa-user icon"></i> Profile</a></li>
+                                            <li><a href="{% url 'user:update' request.user|slugify %}" title="#"><i class="fa fa-edit icon"></i> Update</a></li>
+                                            <li><a href="{% url 'story:create' request.user|slugify %}" title="#"><i class="fa fa-pencil icon"></i> Write</a></li>
                                             <hr/>
-                                            <li><a href="{% url 'user:signout' %}" title="#">Sign Out</a></li>
+                                            <li><a href="{% url 'user:signout' %}" title="#"><i class="fa fa-sign-out icon"></i> Sign Out</a></li>
 
                                         </ul>
                                     </div>
