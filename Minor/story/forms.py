@@ -69,6 +69,6 @@ class ResponseForm(forms.ModelForm):
             "comment": forms.TextInput(attrs={
                 'class':'input',
                 'required': 'True',
-                'placeholder': 'Leave a Comment... 500 Character',
+                'placeholder': 'Leave a Comment.....',
             }),
         }
