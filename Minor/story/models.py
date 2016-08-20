@@ -49,6 +49,10 @@ class Story(Timestampable):
     def response(self):
         return Response.objects.filter(story=self).filter(parent=None)
 
+    @property
+    def responsecount(self):
+        return Response.objects.filter(story=self).filter(parent=None).count()
+
 
 
 class ResponseManager(models.Manager):
@@ -66,7 +70,7 @@ RATING_CHOICE = (
 class Response(Timestampable):
     commenter = models.ForeignKey(Author, on_delete=models.CASCADE)
     story = models.ForeignKey(Story, on_delete=models.CASCADE)
-    comment = models.TextField()
+    comment = models.CharField(max_length = 500)
     rating = models.FloatField(default=0, blank=True)
     parent = models.ForeignKey("self", on_delete=models.CASCADE, null=True, blank=True,default=None)
 
@@ -77,6 +81,9 @@ class Response(Timestampable):
 
     def __str__(self):
         return self.comment[:30]
+
+    def children(self):  # replies
+        return Response.objects.filter(parent=self)
 
     def children(self):  # replies
         return Response.objects.filter(parent=self)

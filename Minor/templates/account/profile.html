@@ -18,8 +18,8 @@
 						<article class="article">
 							<div class="image">
 								<a href="#" title="#" class="favs">
-									<i class="fa fa-heart"></i>
-									<div class="count">36</div>
+									<i class="fa fa-comment"></i>
+									<div class="count">{{story.responsecount}}</div>
 								</a>
 								<a href="#" title="#">
 									<img src="{% static 'tmp/770x513-9.jpg'%}" alt="#" width="770" height="513" class="img-responsive">
@@ -52,7 +52,7 @@
 									<div class="row">
 										<div class="col-sm-12 col-lg-6 tags">
 											{% for tag in story.tag %}
-											<a href="#" title="#"><span class='fa fa-tags icon'>{{tag}}</span></a>
+											<a href="#" title="#"><span class='fa fa-tags icon'> {{tag}}, </span></a>
 											{% endfor %}
 										</div>
 										<div class="col-sm-12 col-lg-6 moreInfo">
@@ -72,7 +72,7 @@
 												</ul>
 											</div>
 											<div><span><i class="fa fa-eye"></i> 86</span> Views</div>
-											<div><span><i class="fa fa-comments"></i> 36</span> Comments</div>
+											<div><span><i class="fa fa-comments"></i> {{story.responsecount}}</span> Comments</div>
 										</div>
 									</div>
 								</footer>
@@ -128,7 +128,7 @@
 									<div class="name">{{instance.user.get_full_name}}</div>
 									<p class="info">{{instance.bio}}</p>
 									<p class="info">{{instance.dob}}</p>
-									<p class="info">{% if not follower%}0{%else%}{{follower}}{%endif%} follower , {% if not follower%}0{%else%}{{follower}}{%endif%} following</p>
+									<p class="info">{% if not follower%}0{%else%}{{follower}}{%endif%} follower , {% if not following%}0{%else%}{{following}}{%endif%} following</p>
 
 									<div class="btns">
 										<form action="" method="POST">{% csrf_token %}
@@ -210,10 +210,11 @@
 											<div class="c">
 												{% if not follower %}
 													<a href="#" title="#" class="btn btn-color"><span > No Follower</span></a>
-												{% endif %}
-												{% for follower in instace.follower%}
+												{% else %}
+												{% for follower in instance.follower%}
 													<a href="{% url 'user:profile' follower|slugify %}" class="btn btn-color"><span class="fa fa-user icon"> {{follower}}</span></a>
 												{% endfor %}
+												{% endif %}
 											</div>
 										</div>
 									</div>
@@ -225,7 +226,7 @@
 												{% if not following %}
 													<a href="#" title="#" class="btn btn-color"><span> No Follower</span></a>
 												{% endif %}
-												{% for following in instace.following%}
+												{% for following in instance.following%}
 													<a href="{% url 'user:profile' following|slugify %}" class="btn btn-color"><span class="fa fa-user icon"> {{following}}</span></a>
 												{% endfor %}
 											</div>

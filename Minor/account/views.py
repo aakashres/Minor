@@ -67,6 +67,8 @@ class Signout(View):
 class Profile(View):
     def get(self, request, slug=None):
         instance = get_object_or_404(Author, slug=slug)
+        follower = len(instance.follower)
+        following = len(instance.following)
         stories = Story.objects.filter(author=instance)
         tags, categories = [], []
         for story in stories:
@@ -79,12 +81,18 @@ class Profile(View):
             'tags':tags,
             'categories':categories,
             'instance': instance,
+            'follower': follower,
+            'following': following,
         }
         return render(request, 'account/profile.html', context)
 
     def post(self, request, slug=None):
         instance = get_object_or_404(Author, slug=slug)
         instance2 = get_object_or_404(Author, user=request.user)
+
+        follower = len(instance.follower)
+        following = len(instance.following)
+
         if request.user != instance.user:
             if request.user.username not in instance.follower:
                 instance.follower.append(request.user.username)
@@ -100,8 +108,8 @@ class Profile(View):
                 instance2.following.remove(instance.user.username)
                 instance2.save()
 
-        follower = len(instance.follower)
-        following = len(instance.following)
+
+            return redirect(instance.get_absolute_url())
 
         context = {
             'instance': instance,

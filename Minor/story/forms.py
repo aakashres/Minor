@@ -65,10 +65,10 @@ class ResponseForm(forms.ModelForm):
             "comment",
         ]
 
-    widgets = {
-        "comment": forms.Textarea(attrs={
-            'required':'true',
-            'placeholder': 'Comment',
+        widgets = {
+            "comment": forms.TextInput(attrs={
+                'class':'input',
+                'required': 'True',
+                'placeholder': 'Leave a Comment... 500 Character',
+            }),
         }
-        ),
-    }
