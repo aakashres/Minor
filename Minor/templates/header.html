@@ -103,52 +103,20 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
-                    <form>
+                    <form method="GET" action='/home'>
                         <div class="c">
-                            <input type="text" class="input" placeholder="Type search term...">
+                            <input type="search" class="input" name='q' value="{{request.GET.q}}" placeholder="Type search term..." >
                             <button class="btn btn-color-full" type="submit"><span>Search</span></button>
                         </div>
-
                         <a href="#" title="#" class="advanced js-advanced-search"><span>Advanced search</span></a>
-
                         <div class="c advancedWrap container-fluid">
                             <div class="row">
                                 <div class="col-sm-12 col-md-6 i">
-                                    <select class="js-select">
-                                        <option>Choose Category</option>
-                                        <option>Creative</option>
-                                        <option>Fashion</option>
-                                        <option>Architecture</option>
-                                        <option>Music</option>
-                                        <option>Nature</option>
-                                        <option>Lifestyle</option>
-                                        <option>Craft</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6 col-md-3 i">
-                                    <select class="js-select">
-                                        <option>Month</option>
-                                        <option>February</option>
-                                        <option>March</option>
-                                        <option>April</option>
-                                        <option>May</option>
-                                        <option>June</option>
-                                        <option>July</option>
-                                        <option>August</option>
-                                        <option>September</option>
-                                        <option>October</option>
-                                        <option>November</option>
-                                        <option>December</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6 col-md-3 i">
-                                    <select class="js-select">
-                                        <option>Year</option>
-                                        <option>2015</option>
-                                        <option>2014</option>
-                                        <option>2013</option>
-                                        <option>2012</option>
-                                        <option>2011</option>
+                                    <select class="js-select" name='c'>
+                                        <option>Story</option>
+                                        <option>User</option>
+                                        <option>Tags</option>
+                                        <option>Categories</option>
                                     </select>
                                 </div>
                             </div>

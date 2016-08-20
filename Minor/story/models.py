@@ -113,7 +113,7 @@ class Data(models.Model):
 
 
 class Frequency(models.Model):
-    story = models.OneToOneField(Story, on_delete=models.CASCADE)
+    story = models.ForeignKey(Story, on_delete=models.CASCADE)
     tokens = JSONField()
 
     def __str__(self):

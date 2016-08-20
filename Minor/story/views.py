@@ -9,6 +9,7 @@ from story.models import Story, Response, Rating
 from account.models import Author
 from .forms import StoryForm, ResponseForm
 from django.contrib import messages
+from django.db.models import Q
 
 class Create(View):
     def get(self, request, author_slug=None):
@@ -121,6 +122,18 @@ class Index(View):
 
 class Home(View):
     def get(self, request):
+        query = request.GET.get("q")
+        kind = request.GET.get("c")
+        if kind=='Story':
+            a = 'a'
+        elif kind=='User':
+            a = 'b'
+        elif kinq=='Tags':
+            a = 'c'
+        else:
+            a = 'd'
+
+
         context = {}
         return render(request,'story/home.html',context)
 

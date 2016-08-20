@@ -86,4 +86,3 @@ class Notification(Timestampable):
     def __str__(self):
         return self.content[:30]
 
-
