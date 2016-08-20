@@ -6,6 +6,7 @@ from .forms import SignupForm, SigninForm, UserForm, ProfileForm, MessageForm
 from django.contrib import messages
 from .models import Author
 from story.models import Story
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 class Signup(View):
     def get(self, request):
@@ -69,9 +70,21 @@ class Profile(View):
         instance = get_object_or_404(Author, slug=slug)
         follower = len(instance.follower)
         following = len(instance.following)
-        stories = Story.objects.filter(author=instance)
+        stories_list = Story.objects.filter(author=instance)
+
+        paginator = Paginator(stories_list, 3) # Show 25 contacts per page
+        page = request.GET.get('page')
+        try:
+            stories = paginator.page(page)
+        except PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            stories = paginator.page(1)
+        except EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            stories = paginator.page(paginator.num_pages)
+
         tags, categories = [], []
-        for story in stories:
+        for story in stories_list:
             temp1, temp2 = set(tags) | set(story.tag), set(categories) |set(story.category)
             tags, categories = temp1, temp2
 

@@ -80,37 +80,63 @@
 						</article>
 						{% endfor %}
 
+
 						<div class="paginations pagination-numbers">
 							<div class="row">
 								<div class="col-xs-12 col-md-3 info i">
-									Page 01 of 12
+									Page {{ stories.number }} of {{ stories.paginator.num_pages }}.
 								</div>
 								<div class="col-xs-12 col-md-9 i">
 									<nav>
 										<ul>
-											<li class="prev prevnext"><a href="#" title="#"><i class="fa fa-angle-left"></i></a></li>
-											<li class="hoverExtend active"><a href="#" title="#">01</a></li>
-											<li class="hoverExtend"><a href="#" title="#">02</a></li>
-											<li class="hoverExtend"><a href="#" title="#">03</a></li>
-											<li>...</li>
-											<li class="hoverExtend"><a href="#" title="#">12</a></li>
-											<li class="next prevnext"><a href="#" title="#"><i class="fa fa-angle-right"></i></a></li>
+										{% if stories.has_previous %}
+											<li class="prev prevnext"><a href="?page={{ stories.previous_page_number }}" title="#"><i class="fa fa-angle-left"></i></a></li>
+										{% else %}
+											<li class="prev prevnext"><a href="" title="#"><i class="fa fa-angle-left"></i></a></li>
+										{% endif %}
+
+										{% for pagenum in stories.paginator.page_range %}
+											{% if pagenum == stories.number %}
+											<li class="hoverExtend active">
+											{% else %}
+											<li class="hoverExtend">
+											{% endif %}
+											<a href="?page={{ pagenum }}" title="#">{{pagenum}}</a></li>
+										{% endfor %}
+
+										{% if stories.has_next %}
+											<li class="next prevnext"><a href="?page={{ stories.next_page_number }}" title="#"><i class="fa fa-angle-right"></i></a></li>
+										{% else %}
+											<li class="next prevnext"><a href="" title="#"><i class="fa fa-angle-right"></i></a></li>
+										{% endif %}
+
 										</ul>
 									</nav>
 								</div>
 							</div>
 						</div>
-
-						<!-- Pagination previous / next -->
 						<div class="paginations pagination-prevnext">
 							<div class="row">
-								<div class="col-xs-4 prev hoverExtend active">
-									<a href="#" title="#">Previous</a>
-								</div>
-								<div class="col-xs-4 info hidden-xs">Page 01 of 12</div>
-								<div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 next hoverExtend active text-right">
-									<a href="#" title="#">Next</a>
-								</div>
+								{% if stories.has_previous %}
+									<div class="col-xs-4 prev hoverExtend active">
+										<a href="?page={{ stories.previous_page_number }}" title="#">Previous</a>
+									</div>
+								{% else %}
+									<div class="col-xs-4 prev hoverExtend active">
+										<a href="" title="#">Previous</a>
+									</div>
+								{% endif %}
+
+								<div class="col-xs-4 info hidden-xs">Page {{ stories.number }} of {{ stories.paginator.num_pages }}.</div>
+								{% if stories.has_next %}
+									<div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 next hoverExtend active text-right">
+										<a href="?page={{ stories.next_page_number }}" title="#">Next</a>
+									</div>
+							    {% else %}
+							    	<div class="col-xs-4 prev hoverExtend active">
+										<a href="" title="#">Next</a>
+									</div>
+								{% endif %}
 							</div>
 						</div>
 					</div>
@@ -185,6 +211,7 @@
 														<a href="{% url 'story:detail' story.title|slugify %}" title="#">{{story.title}}</a>
 													</h3>
 													<div class="info">{{story.created_at|date}}</div>
+													<div class="info">{{story.description}}</div>
 												</article>
 											</div>
 										</div>
