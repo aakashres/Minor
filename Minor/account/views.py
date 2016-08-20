@@ -5,6 +5,7 @@ from django.views.generic import View
 from .forms import SignupForm, SigninForm, UserForm, ProfileForm, MessageForm
 from django.contrib import messages
 from .models import Author
+from story.models import Story
 
 class Signup(View):
     def get(self, request):
@@ -66,7 +67,17 @@ class Signout(View):
 class Profile(View):
     def get(self, request, slug=None):
         instance = get_object_or_404(Author, slug=slug)
+        stories = Story.objects.filter(author=instance)
+        tags, categories = [], []
+        for story in stories:
+            temp1, temp2 = set(tags) | set(story.tag), set(categories) |set(story.category)
+            tags, categories = temp1, temp2
+
+        tags, categories =list(tags), list(categories)
         context = {
+            'stories':stories,
+            'tags':tags,
+            'categories':categories,
             'instance': instance,
         }
         return render(request, 'account/profile.html', context)

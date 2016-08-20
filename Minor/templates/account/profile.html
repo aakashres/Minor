@@ -7,67 +7,6 @@
 
 
 {% block main %}
-			<!-- Main carousel -->
-		<div class="mainCarousel mainCarousel-1">
-			<div class="container">
-				<div class="c-row">
-					<div class="js-main-carousel-1">
-						<article class="i article">
-							<a href="post-detail-standard.html" title="#">
-								<img src="{% static 'tmp/580x550-10.jpg'%}" alt="#" width="580" height="550" class="img-responsive">
-							</a>
-							<div class="c">
-								<h2 class="title">
-									<a href="post-detail-standard.html" title="#">Cras metus magna, tristique ac nisi id consequat</a>
-								</h2>
-								<div class="info">
-									<a href="post-detail-standard.html" title="#">Creative</a>
-								</div>
-							</div>
-						</article>
-						<article class="i article">
-							<a href="post-detail-standard.html" title="#">
-								<img src="{% static 'tmp/580x550-11.jpg'%}" alt="#" width="580" height="550" class="img-responsive">
-							</a>
-							<div class="c">
-								<h2 class="title">
-									<a href="post-detail-standard.html" title="#">Curabitur interdum, ante vel egestas mattis ante fermentum.</a>
-								</h2>
-								<div class="info">
-									<a href="post-detail-standard.html" title="#">Lifestyle</a>
-								</div>
-							</div>
-						</article>
-						<article class="i article">
-							<a href="post-detail-standard.html" title="#">
-								<img src="{% static 'tmp/580x550-12.jpg'%}" alt="#" width="580" height="550" class="img-responsive">
-							</a>
-							<div class="c">
-								<h2 class="title">
-									<a href="post-detail-standard.html" title="#">Nam lobortis fermentum quam eget volutpat aliquam.</a>
-								</h2>
-								<div class="info">
-									<a href="post-detail-standard.html" title="#">Food</a>
-								</div>
-							</div>
-						</article>
-						<article class="i article">
-							<a href="post-detail-standard.html" title="#">
-								<img src="{% static 'tmp/580x550-13.jpg'%}" alt="#" width="580" height="550" class="img-responsive">
-							</a>
-							<div class="c">
-								<h2 class="title">
-									<a href="post-detail-standard.html" title="#">Nunc rhoncus ex quis purus viverra hendrerit integer vitae purus.</a>
-								</h2>
-								<div class="info">
-									<a href="post-detail-standard.html" title="#">Travel</a>
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<!-- Content -->
 		<div class="container">
@@ -75,43 +14,46 @@
 				<!-- Listings -->
 				<div class="col-xs-12 col-sm-8">
 					<div class="articlesListing">
-
-						<!-- Standard post -->
+						{% for story in stories %}
 						<article class="article">
 							<div class="image">
-								<a href="post-detail-standard.html" title="#" class="favs">
+								<a href="#" title="#" class="favs">
 									<i class="fa fa-heart"></i>
 									<div class="count">36</div>
 								</a>
-								<a href="post-detail-standard.html" title="#">
+								<a href="#" title="#">
 									<img src="{% static 'tmp/770x513-9.jpg'%}" alt="#" width="770" height="513" class="img-responsive">
 								</a>
 							</div>
 							<div class="box">
 								<h3 class="title">
-									<a href="post-detail-standard.html" title="#">Mauris accumsan eleifend magna</a>
+									<a href="#" title="#">{{story.title}}</a>
 								</h3>
 								<div class="info">
 									<div>
-										<span class="date">March 26, 2016</span>
+										<span class="date">{{story.created_at|date}}</span>
 									</div>
-									<div>by <a href="post-detail-standard.html" title="#">Themees</a></div>
-									<div>in <a href="post-detail-standard.html" title="#">Nature</a></div>
+									<div>by <a href="{% url 'user:profile' story.author.user.username|slugify %}" title="#">{{story.author.user.username}}</a></div>
+									<div>in
+									{% for category in story.category%}
+									<a href="#" title="#">{{category}}</a>
+									{% endfor%}
+									</div>
 									<div>3 min read</div>
 								</div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan eleifend magna. Curabitur scelerisque vitae augue ac dignissim.
-									Aliquam erat volutpat. Proin in ultricies ligula. Etiam rutrum porta lacus in posuere. vel tortor tempor risus ultricies bibendum...
+									{{story.description}}
 								</p>
 								<div class="btns text-center">
-									<a href="post-detail-standard.html" title="#" class="btn btn-primary"><span>Continue reading</span></a>
+									<a href="{% url 'story:detail' story.title|slugify %}" title="#" class="btn btn-primary"><span>Continue reading</span></a>
 								</div>
 
 								<footer class="footer">
 									<div class="row">
 										<div class="col-sm-12 col-lg-6 tags">
-											<a href="post-detail-standard.html" title="#">#Nature</a>
-											<a href="post-detail-standard.html" title="#">#Forest</a>
+											{% for tag in story.tag %}
+											<a href="#" title="#"><span class='fa fa-tags icon'>{{tag}}</span></a>
+											{% endfor %}
 										</div>
 										<div class="col-sm-12 col-lg-6 moreInfo">
 											<div class="dropdown onHover">
@@ -120,13 +62,13 @@
 												</div>
 
 												<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-google-plus"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-pinterest-p"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-tumblr"></i></a></li>
-													<li><a href="post-detail-standard.html" title="#" class="i"><i class="fa fa-envelope"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-google-plus"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-pinterest-p"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-tumblr"></i></a></li>
+													<li><a href="#" title="#" class="i"><i class="fa fa-envelope"></i></a></li>
 												</ul>
 											</div>
 											<div><span><i class="fa fa-eye"></i> 86</span> Views</div>
@@ -136,8 +78,8 @@
 								</footer>
 							</div>
 						</article>
+						{% endfor %}
 
-						<!-- Pagination numbers -->
 						<div class="paginations pagination-numbers">
 							<div class="row">
 								<div class="col-xs-12 col-md-3 info i">
@@ -157,11 +99,6 @@
 									</nav>
 								</div>
 							</div>
-						</div>
-
-						<!-- Pagination load more -->
-						<div class="paginations pagination-loadmore hoverExtend active">
-							<a href="#" title="#">Load more</a>
 						</div>
 
 						<!-- Pagination previous / next -->
@@ -190,6 +127,8 @@
 									<img src="{% static 'tmp/190x190-1.jpg'%}" alt="#" class="img-responsive image thumbnail">
 									<div class="name">{{instance.user.get_full_name}}</div>
 									<p class="info">{{instance.bio}}</p>
+									<p class="info">{{instance.dob}}</p>
+									<p class="info">{% if not follower%}0{%else%}{{follower}}{%endif%} follower , {% if not follower%}0{%else%}{{follower}}{%endif%} following</p>
 
 									<div class="btns">
 										<form action="" method="POST">{% csrf_token %}
@@ -225,6 +164,76 @@
 								<a href="#" title="#" class="i"><i class="fa fa-instagram"></i></a>
 							</div>
 						</div>
+												<!-- Post slider -->
+						<div class="col-xs-12 i">
+							<div class="box postSlider">
+								<h2>Story Slider</h2>
+
+								<div class="asideCarousel js-aside-carousel">
+									{% for story in stories%}
+										<div class="i">
+											<div class="c">
+												<article class="article">
+													<a href="{% url 'story:detail' story.title|slugify %}" title="#" class="image">
+														<img src="{% static 'tmp/290x193-1.jpg'%}" alt="#" width="290" height="193" class="img-responsive">
+													</a>
+													<h3 class="title">
+														<a href="{% url 'story:detail' story.title|slugify %}" title="#">{{story.title}}</a>
+													</h3>
+													<div class="info">{{story.created_at|date}}</div>
+												</article>
+											</div>
+										</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+
+
+						<!-- Popular posts -->
+						<div class="col-xs-12 i">
+							<div class="box articleMediaList">
+								<h2>Friends Circle</h2>
+
+								<div class="articlesFilter clearfix js-tabs" role="tablist">
+									<div class="i">
+										<a href="#follower" aria-controls="follower" role="tab" data-toggle="tab" class="active">Follower</a>
+									</div>
+									<div class="i text-center">
+										<a href="#following" aria-controls="following" role="tab" data-toggle="tab">Following</a>
+									</div>
+								</div>
+
+								<div class="tab-content bordered">
+									<div role="tabpanel" class="tab-pane fade in active" id="follower">
+										<div class="tags">
+											<div class="c">
+												{% if not follower %}
+													<a href="#" title="#" class="btn btn-color"><span > No Follower</span></a>
+												{% endif %}
+												{% for follower in instace.follower%}
+													<a href="{% url 'user:profile' follower|slugify %}" class="btn btn-color"><span class="fa fa-user icon"> {{follower}}</span></a>
+												{% endfor %}
+											</div>
+										</div>
+									</div>
+
+									<!-- This month -->
+									<div role="tabpanel" class="tab-pane fade" id="following">
+										<div class="tags">
+											<div class="c">
+												{% if not following %}
+													<a href="#" title="#" class="btn btn-color"><span> No Follower</span></a>
+												{% endif %}
+												{% for following in instace.following%}
+													<a href="{% url 'user:profile' following|slugify %}" class="btn btn-color"><span class="fa fa-user icon"> {{following}}</span></a>
+												{% endfor %}
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<!-- Most popular by -->
 						<div class="col-xs-12 i">
@@ -248,61 +257,16 @@
 									<div role="tabpanel" class="tab-pane fade in active" id="views">
 										<article class="article media">
 											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
+												<a href="#" title="#" class="image">
 													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
 												</a>
 											</div>
 											<div class="media-body">
 												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
+													<a href="#" title="#">Even Forest Powers Have Limits</a>
 												</h3>
 												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 26, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
+													<a href="#" title="#">March 26, 2016</a>
 												</div>
 											</div>
 										</article>
@@ -312,61 +276,16 @@
 									<div role="tabpanel" class="tab-pane fade" id="likes">
 										<article class="article media">
 											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
+												<a href="#" title="#" class="image">
 													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
 												</a>
 											</div>
 											<div class="media-body">
 												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
+													<a href="#" title="#">Checkin' out my new Fuji camera</a>
 												</h3>
 												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
+													<a href="#" title="#">March 25, 2016</a>
 												</div>
 											</div>
 										</article>
@@ -376,61 +295,16 @@
 									<div role="tabpanel" class="tab-pane fade" id="comments">
 										<article class="article media">
 											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
+												<a href="#" title="#" class="image">
 													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
 												</a>
 											</div>
 											<div class="media-body">
 												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
+													<a href="#" title="#">There is something in the New York air that makes sleep useless.</a>
 												</h3>
 												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 26, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
+													<a href="#" title="#">March 25, 2016</a>
 												</div>
 											</div>
 										</article>
@@ -439,377 +313,24 @@
 							</div>
 						</div>
 
-						<!-- Archives -->
+
 						<div class="col-xs-12 i">
-							<div class="box archives">
-								<h2>Archives</h2>
-
-								<div class="c">
-									<div class="i">
-										<a href="#" title="#" class="clearfix">
-											<span class="month">March 2015</span>
-											<span class="count">(85)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="#" title="#" class="clearfix">
-											<span class="month">February 2015</span>
-											<span class="count">(75)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="#" title="#" class="clearfix">
-											<span class="month">January 2015</span>
-											<span class="count">(55)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="#" title="#" class="clearfix">
-											<span class="month">December 2014</span>
-											<span class="count">(62)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="#" title="#" class="clearfix">
-											<span class="month">November 2014</span>
-											<span class="count">(32)</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Popular posts -->
-						<div class="col-xs-12 i">
-							<div class="box articleMediaList">
-								<h2>Popular posts</h2>
-
-								<div class="articlesFilter clearfix js-tabs" role="tablist">
-									<div class="i">
-										<a href="#week" aria-controls="week" role="tab" data-toggle="tab" class="active">This week</a>
-									</div>
-									<div class="i text-center">
-										<a href="#month" aria-controls="month" role="tab" data-toggle="tab">This month</a>
-									</div>
-									<div class="i text-right">
-										<a href="#trending" aria-controls="trending" role="tab" data-toggle="tab">Treniding</a>
-									</div>
-								</div>
-
-								<div class="tab-content bordered">
-									<!-- This week -->
-									<div role="tabpanel" class="tab-pane fade in active" id="week">
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 26, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
-												</div>
-											</div>
-										</article>
-									</div>
-
-									<!-- This month -->
-									<div role="tabpanel" class="tab-pane fade" id="month">
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-									</div>
-
-									<!-- Trending -->
-									<div role="tabpanel" class="tab-pane fade" id="trending">
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-2.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">There is something in the New York air that makes sleep useless.</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 26, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-3.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Checkin' out my new Fuji camera</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 25, 2016</a>
-												</div>
-											</div>
-										</article>
-										<article class="article media">
-											<div class="media-left media-middle">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/90x90-1.jpg'%}" alt="#" width="90" height="90" class="media-object">
-												</a>
-											</div>
-											<div class="media-body">
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Even Forest Powers Have Limits</a>
-												</h3>
-												<div class="info">
-													<a href="post-detail-standard.html" title="#">March 24, 2016</a>
-												</div>
-											</div>
-										</article>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Categories -->
-						<div class="col-xs-12 i">
-							<div class="box categories">
+							<div class="box tags">
 								<h2>Categories</h2>
-
 								<div class="c">
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Creative</span>
-											<span class="count">(68)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Fashion</span>
-											<span class="count">(35)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Architecture</span>
-											<span class="count">(12)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Music</span>
-											<span class="count">(27)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Nature</span>
-											<span class="count">(08)</span>
-										</a>
-									</div>
-									<div class="i">
-										<a href="page-category.html" title="#" class="clearfix">
-											<span class="title">Lifestyle</span>
-											<span class="count">(14)</span>
-										</a>
-									</div>
-								</div>
-
-								<div class="btns text-center">
-									<a href="page-category.html" title="#" class="btn"><span>All categories</span></a>
+									{% for category in categories%}
+										<a href="#" title="#" class="btn btn-color"><span class="fa fa-tags icon"> {{category}}</span></a>
+									{% endfor %}
 								</div>
 							</div>
 						</div>
-
-						<!-- Tags -->
 						<div class="col-xs-12 i">
 							<div class="box tags">
 								<h2>Tags</h2>
-
 								<div class="c">
-									<a href="#" title="#" class="btn btn-color"><span>#Nature</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Forest</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Fashion</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Food</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#New York</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Lifestyle</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Architecture</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Recipe</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Do it yourself</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Vintage</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Journey</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Chet faker</span></a>
-									<a href="#" title="#" class="btn btn-color"><span>#Music</span></a>
-								</div>
-							</div>
-						</div>
-
-						<!-- Post slider -->
-						<div class="col-xs-12 i">
-							<div class="box postSlider">
-								<h2>Post slider</h2>
-
-								<div class="asideCarousel js-aside-carousel">
-									<div class="i">
-										<div class="c">
-											<article class="article">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/290x193-1.jpg'%}" alt="#" width="290" height="193" class="img-responsive">
-												</a>
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Nothing ever seems straightforward in Venice, least of all its romances.</a>
-												</h3>
-												<div class="info">March 22, 2016</div>
-											</article>
-										</div>
-									</div>
-									<div class="i">
-										<div class="c">
-											<article class="article">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/290x193-3.jpg'%}" alt="#" width="290" height="193" class="img-responsive">
-												</a>
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">Monday Morning Cup of Coffee</a>
-												</h3>
-												<div class="info">March 22, 2016</div>
-											</article>
-										</div>
-									</div>
-									<div class="i">
-										<div class="c">
-											<article class="article">
-												<a href="post-detail-standard.html" title="#" class="image">
-													<img src="{% static 'tmp/290x193-2.jpg'%}" alt="#" width="290" height="193" class="img-responsive">
-												</a>
-												<h3 class="title">
-													<a href="post-detail-standard.html" title="#">I love public transportation</a>
-												</h3>
-												<div class="info">March 22, 2016</div>
-											</article>
-										</div>
-									</div>
+									{% for tag in tags%}
+										<a href="#" title="#" class="btn btn-color"><span class='fa fa-tags icon'> {{tag}}</span></a>
+									{% endfor %}
 								</div>
 							</div>
 						</div>
@@ -817,28 +338,4 @@
 				</aside>
 			</div>
 		</div>
-
-	{{ instance.user.username }}
-	{{ instance.user.get_full_name }}
-	{{ instance.user.email }}
-	{{ instance.bio }}
-	{{ instance.photo }}
-	{{ instance.dob }}
-	{{ instance.gender }}
-	{{ instance.follower }}
-	{{ instance.following }}
-	{{ follower }}
-	{{ following }}
-
-	<form action="" method="POST">{% csrf_token %}
-		{% if instance.user != request.user %}
-			<button class="btn btn-lg btn-primary" type="submit">
-				{% if request.user.username not in instance.follower %}
-					Follow
-				{% else %}
-					Unfollow
-				{% endif %}
-			</button>
-		{% endif  %}
-	</form>
 {% endblock main %}
