@@ -463,7 +463,9 @@ body {
                                             <img src="{% static 'tmp/190x190-2.jpg' %}" alt="#" width="190" height="190" class="img-responsive image">
                                         </div>
                                         <div class="name">{{story.author.user.get_full_name}}</div>
+                                        {% if story.author.bio  %}
                                         <p class="info">{{story.author.bio}}</p>
+                                        {% endif %}
                                     </div>
                                 </div>
 
