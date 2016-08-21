@@ -10,6 +10,7 @@ from account.models import Author
 from .forms import StoryForm, ResponseForm
 from django.contrib import messages
 from django.db.models import Q
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 class Create(View):
     def get(self, request, author_slug=None):
@@ -54,7 +55,7 @@ class Update(View):
         story = get_object_or_404(Story, slug = story_slug)
         form = StoryForm(request.POST or None, request.FILES or None, instance=story)
         if form.is_valid():
-            instance = form.save(commit=True)
+            instance = form.save(commit=False)
             if request.POST.get('draft','off')=='on':
                 instance.draft = True
             else:
@@ -116,35 +117,130 @@ class Delete(View):
 
 class Index(View):
     def get(self, request):
+        stories = Story.objects.all()
+        ids = []
+        for story in stories:
+            ids.append(story.id)
+        print(ids)
         context = {
         }
         return render(request,'story/index.html',context)
 
 class Home(View):
     def get(self, request):
+        stories_list = Story.objects.all()
         query = request.GET.get("q")
         kind = request.GET.get("c")
         if kind=='Story':
             a = 'a'
         elif kind=='User':
             a = 'b'
-        elif kinq=='Tags':
+        elif kind=='Tags':
             a = 'c'
         else:
             a = 'd'
 
+        paginator = Paginator(stories_list, 1) # Show 25 contacts per page
+        page = request.GET.get('page')
+        try:
+            stories = paginator.page(page)
+        except PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            stories = paginator.page(1)
+        except EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            stories = paginator.page(paginator.num_pages)
 
-        context = {}
+        tags, categories = [], []
+        for story in stories_list:
+            temp1, temp2 = set(tags) | set(story.tag), set(categories) |set(story.category)
+            tags, categories = temp1, temp2
+
+        tags, categories =list(tags), list(categories)
+
+        context = {
+            'stories':stories,
+            'tags':tags,
+            'categories':categories,
+        }
         return render(request,'story/home.html',context)
 
 class Trending(View):
     def get(self, request):
-        context = {}
+        stories_list = Story.objects.all()
+        query = request.GET.get("q")
+        kind = request.GET.get("c")
+        if kind=='Story':
+            a = 'a'
+        elif kind=='User':
+            a = 'b'
+        elif kind=='Tags':
+            a = 'c'
+        else:
+            a = 'd'
+
+        paginator = Paginator(stories_list, 1) # Show 25 contacts per page
+        page = request.GET.get('page')
+        try:
+            stories = paginator.page(page)
+        except PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            stories = paginator.page(1)
+        except EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            stories = paginator.page(paginator.num_pages)
+
+        tags, categories = [], []
+        for story in stories_list:
+            temp1, temp2 = set(tags) | set(story.tag), set(categories) |set(story.category)
+            tags, categories = temp1, temp2
+
+        tags, categories =list(tags), list(categories)
+
+        context = {
+            'stories':stories,
+            'tags':tags,
+            'categories':categories,
+        }
         return render(request,'story/trending.html',context)
 
 class Recommended(View):
     def get(self, request):
-        context = {}
+        stories_list = Story.objects.all()
+        query = request.GET.get("q")
+        kind = request.GET.get("c")
+        if kind=='Story':
+            a = 'a'
+        elif kind=='User':
+            a = 'b'
+        elif kind=='Tags':
+            a = 'c'
+        else:
+            a = 'd'
+
+        paginator = Paginator(stories_list, 1) # Show 25 contacts per page
+        page = request.GET.get('page')
+        try:
+            stories = paginator.page(page)
+        except PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            stories = paginator.page(1)
+        except EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            stories = paginator.page(paginator.num_pages)
+
+        tags, categories = [], []
+        for story in stories_list:
+            temp1, temp2 = set(tags) | set(story.tag), set(categories) |set(story.category)
+            tags, categories = temp1, temp2
+
+        tags, categories =list(tags), list(categories)
+
+        context = {
+            'stories':stories,
+            'tags':tags,
+            'categories':categories,
+        }
         return render(request,'story/recommended.html',context)
 
 

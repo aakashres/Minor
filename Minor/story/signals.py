@@ -1,8 +1,9 @@
+from json import dumps
 from django.db.models.signals import pre_save, post_save
 from django.dispatch import receiver
 from django.utils.text import slugify
-
-from .models import Story, Response, Rating, Data
+from .utils import tokenize
+from .models import Story, Response, Rating, Data, Frequency
 
 
 @receiver(pre_save, sender=Story)
@@ -19,3 +20,17 @@ def create_rating(sender, instance, *args, **kwargs):
         else:
             rating.rating = instance.rating
             rating.save()
+
+@receiver(post_save, sender=Story)
+def create_frequency(sender, instance, *args, **kwargs):
+    terms = tokenize(instance.content)
+    json = dumps(dict(terms))
+
+    frequency = Frequency.objects.filter(story=instance).first()
+    if frequency:
+        frequency.tokens = json
+        frequency.save()
+    else:
+        Frequency.objects.create(story=instance, tokens= json)
+
+
