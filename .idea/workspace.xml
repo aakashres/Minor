@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96584456-fdde-4b65-bbfe-31932a38f85c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/Minor/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot?" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot_" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot?" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot_" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/favicon.ico" afterPath="$PROJECT_DIR$/Minor/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/img/bg-infobox-gray-darken.png" afterPath="$PROJECT_DIR$/Minor/static/img/bg-infobox-gray-darken.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/img/bg-infobox-gray.png" afterPath="$PROJECT_DIR$/Minor/static/img/bg-infobox-gray.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/img/bg_pinboard_twitter.png" afterPath="$PROJECT_DIR$/Minor/static/img/bg_pinboard_twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/img/logo.png" afterPath="$PROJECT_DIR$/Minor/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/img/transparent.png" afterPath="$PROJECT_DIR$/Minor/static/img/transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/star.png" afterPath="$PROJECT_DIR$/Minor/static/star.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/143x143-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/143x143-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/143x143-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/143x143-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/143x143-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/143x143-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/143x143-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/143x143-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/155x310-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/155x310-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/156x205-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/156x205-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-10.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-11.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-12.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-13.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-14.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/185x185-9.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/185x185-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/190x190-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/190x190-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/190x190-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/190x190-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/268x332-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/268x332-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/270x300-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/270x300-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/270x300-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/270x300-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/270x300-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/270x300-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/270x300-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/270x300-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/290x193-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/290x193-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/290x193-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/290x193-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/290x193-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/290x193-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/300x200-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/300x200-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/300x250-1.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/300x250-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/332x221-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/332x221-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/332x221-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/332x221-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/370x154.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/370x154.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-10.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-11.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-12.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-13.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-14.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/383x257-9.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/383x257-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/498x332-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/498x332-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-10.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-11.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-12.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-13.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-14.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-15.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-16.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-17.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-18.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-19.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-20.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-21.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-22.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-23.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-24.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-25.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-26.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-27.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-28.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-29.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-30.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-31.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-32.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-33.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/580x550-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/580x550-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/60x60-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/60x60-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/60x60-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/60x60-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/60x60-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/60x60-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x207-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x207-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-10.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-11.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-12.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-13.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-14.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-15.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-16.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-17.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-18.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-19.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-20.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-21.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-22.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-23.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-24.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-25.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-26.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-27.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-28.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-29.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-30.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-31.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-32.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-33.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-34.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-35.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-36.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-37.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-38.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-39.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x513-9.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x513-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-10.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-11.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-12.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-13.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-14.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-15.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-16.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x579-9.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x579-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x617-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x617-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x617-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x617-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/770x711-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/770x711-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/900x600-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/900x600-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/900x600-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/900x600-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/900x600-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/900x600-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/90x90-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/90x90-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/90x90-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/90x90-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/90x90-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/90x90-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-2.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-3.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-4.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-5.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-6.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-7.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-8.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/94x94-9.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/94x94-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/audio.mp3" afterPath="$PROJECT_DIR$/Minor/static/tmp/audio.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-about-me.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-about-me.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-about-us.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-about-us.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-contact-us.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-contact-us.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-fun-numbers-1.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-fun-numbers-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-fun-numbers.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-fun-numbers.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/bg-quotes.jpg" afterPath="$PROJECT_DIR$/Minor/static/tmp/bg-quotes.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-1.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-2.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-3.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-4.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-5.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-6.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-7.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-8.png" afterPath="$PROJECT_DIR$/Minor/static/tmp/partner-logo-8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/tmp/video-beach.mp4" afterPath="$PROJECT_DIR$/Minor/static/tmp/video-beach.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/favicon.ico" afterPath="$PROJECT_DIR$/Minor/templates/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/media_cdn/users/asdf/13445873_1199906186700114_1003146296_o.jpg" afterPath="$PROJECT_DIR$/root/media_cdn/users/asdf/13445873_1199906186700114_1003146296_o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Bold-webfont.woff" afterPath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Light-webfont.woff" afterPath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Regular-webfont.woff" afterPath="$PROJECT_DIR$/root/static_cdn/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot?" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot_" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.eot_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot?" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot_" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/favicon.ico" afterPath="$PROJECT_DIR$/root/static_cdn/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/img/bg-infobox-gray-darken.png" afterPath="$PROJECT_DIR$/root/static_cdn/img/bg-infobox-gray-darken.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/img/bg-infobox-gray.png" afterPath="$PROJECT_DIR$/root/static_cdn/img/bg-infobox-gray.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/img/bg_pinboard_twitter.png" afterPath="$PROJECT_DIR$/root/static_cdn/img/bg_pinboard_twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/img/logo.png" afterPath="$PROJECT_DIR$/root/static_cdn/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/img/transparent.png" afterPath="$PROJECT_DIR$/root/static_cdn/img/transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/star.png" afterPath="$PROJECT_DIR$/root/static_cdn/star.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/143x143-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/155x310-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/155x310-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/156x205-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/156x205-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-10.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-11.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-12.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-13.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-14.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-9.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/185x185-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/190x190-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/190x190-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/190x190-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/190x190-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/268x332-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/270x300-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/290x193-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/300x200-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/300x200-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/300x250-1.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/300x250-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/332x221-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/332x221-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/332x221-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/332x221-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/370x154.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/370x154.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-10.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-11.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-12.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-13.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-14.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-9.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/383x257-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/498x332-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-10.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-11.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-12.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-13.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-14.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-15.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-16.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-17.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-18.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-19.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-20.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-21.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-22.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-23.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-24.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-25.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-26.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-27.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-28.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-29.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-30.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-31.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-32.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-33.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/580x550-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/60x60-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x207-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x207-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-10.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-11.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-12.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-13.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-14.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-15.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-16.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-17.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-18.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-19.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-20.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-21.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-22.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-23.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-24.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-25.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-26.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-27.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-28.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-29.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-30.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-31.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-32.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-33.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-34.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-35.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-36.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-37.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-38.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-39.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-9.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x513-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-10.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-11.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-12.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-13.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-14.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-15.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-16.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-9.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x579-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x617-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x617-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x617-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x617-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/770x711-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/770x711-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/900x600-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/90x90-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-2.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-3.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-4.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-5.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-6.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-7.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-8.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-9.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/94x94-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/audio.mp3" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/audio.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-about-me.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-about-me.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-about-us.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-about-us.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-contact-us.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-contact-us.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-fun-numbers-1.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-fun-numbers-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-fun-numbers.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-fun-numbers.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/bg-quotes.jpg" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/bg-quotes.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-1.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-2.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-3.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-4.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-5.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-6.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-7.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-8.png" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/partner-logo-8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/tmp/video-beach.mp4" afterPath="$PROJECT_DIR$/root/static_cdn/tmp/video-beach.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/.name" afterPath="$PROJECT_DIR$/Minor/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/Minor.iml" afterPath="$PROJECT_DIR$/Minor/.idea/Minor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/Minor/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/Minor/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/encodings.xml" afterPath="$PROJECT_DIR$/Minor/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/misc.xml" afterPath="$PROJECT_DIR$/Minor/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/modules.xml" afterPath="$PROJECT_DIR$/Minor/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Minor/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/Minor/__init__.py" afterPath="$PROJECT_DIR$/Minor/Minor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/Minor/settings.py" afterPath="$PROJECT_DIR$/Minor/Minor/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/Minor/urls.py" afterPath="$PROJECT_DIR$/Minor/Minor/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/Minor/wsgi.py" afterPath="$PROJECT_DIR$/Minor/Minor/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/__init__.py" afterPath="$PROJECT_DIR$/Minor/account/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/admin.py" afterPath="$PROJECT_DIR$/Minor/account/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/apps.py" afterPath="$PROJECT_DIR$/Minor/account/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/forms.py" afterPath="$PROJECT_DIR$/Minor/account/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/Minor/account/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/migrations/0002_data.py" afterPath="$PROJECT_DIR$/Minor/account/migrations/0002_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/migrations/__init__.py" afterPath="$PROJECT_DIR$/Minor/account/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/models.py" afterPath="$PROJECT_DIR$/Minor/account/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/signals.py" afterPath="$PROJECT_DIR$/Minor/account/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/tests.py" afterPath="$PROJECT_DIR$/Minor/account/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/urls.py" afterPath="$PROJECT_DIR$/Minor/account/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/utils.py" afterPath="$PROJECT_DIR$/Minor/account/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/account/views.py" afterPath="$PROJECT_DIR$/Minor/account/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/css/app.min.css" afterPath="$PROJECT_DIR$/Minor/static/assets/css/app.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/css/magnific-popup.css" afterPath="$PROJECT_DIR$/Minor/static/assets/css/magnific-popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/css/owl.carousel.css" afterPath="$PROJECT_DIR$/Minor/static/assets/css/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/css/select2.min.css" afterPath="$PROJECT_DIR$/Minor/static/assets/css/select2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/css/style.css" afterPath="$PROJECT_DIR$/Minor/static/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" afterPath="$PROJECT_DIR$/Minor/static/assets/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/app.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/app.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/clndr.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/clndr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery-2.2.3.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery-2.2.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.countTo.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.countTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.countdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.dotdotdot.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.dotdotdot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.easypiechart.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.easypiechart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.magnific-popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/jquery.waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/masonry.pkgd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/modernizr-2.8.3.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/modernizr-2.8.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/moment-2.8.3.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/moment-2.8.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/assets/js/underscore-min.js" afterPath="$PROJECT_DIR$/Minor/static/assets/js/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/lato.css" afterPath="$PROJECT_DIR$/Minor/static/lato.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/raleway.css" afterPath="$PROJECT_DIR$/Minor/static/raleway.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/roboto.css" afterPath="$PROJECT_DIR$/Minor/static/roboto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/static/scource.css" afterPath="$PROJECT_DIR$/Minor/static/scource.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/__init__.py" afterPath="$PROJECT_DIR$/Minor/story/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/admin.py" afterPath="$PROJECT_DIR$/Minor/story/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/apps.py" afterPath="$PROJECT_DIR$/Minor/story/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/forms.py" afterPath="$PROJECT_DIR$/Minor/story/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0002_response_rating.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0002_response_rating.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0003_data.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0003_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0004_auto_20160820_1116.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0004_auto_20160820_1116.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0005_auto_20160820_1438.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0005_auto_20160820_1438.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0006_auto_20160820_1839.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0006_auto_20160820_1839.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0007_delete_data.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0007_delete_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/0008_story_read_time.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/0008_story_read_time.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/migrations/__init__.py" afterPath="$PROJECT_DIR$/Minor/story/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/models.py" afterPath="$PROJECT_DIR$/Minor/story/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/signals.py" afterPath="$PROJECT_DIR$/Minor/story/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/tests.py" afterPath="$PROJECT_DIR$/Minor/story/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/urls.py" afterPath="$PROJECT_DIR$/Minor/story/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/utils.py" afterPath="$PROJECT_DIR$/Minor/story/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/story/views.py" afterPath="$PROJECT_DIR$/Minor/story/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/about.html" afterPath="$PROJECT_DIR$/Minor/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/account/list.html" afterPath="$PROJECT_DIR$/Minor/templates/account/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/account/profile.html" afterPath="$PROJECT_DIR$/Minor/templates/account/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/account/signin.html" afterPath="$PROJECT_DIR$/Minor/templates/account/signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/account/signup.html" afterPath="$PROJECT_DIR$/Minor/templates/account/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/account/update.html" afterPath="$PROJECT_DIR$/Minor/templates/account/update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/base.html" afterPath="$PROJECT_DIR$/Minor/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/contact.html" afterPath="$PROJECT_DIR$/Minor/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/footer.html" afterPath="$PROJECT_DIR$/Minor/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/header.html" afterPath="$PROJECT_DIR$/Minor/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/create.html" afterPath="$PROJECT_DIR$/Minor/templates/story/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/detail.html" afterPath="$PROJECT_DIR$/Minor/templates/story/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/home.html" afterPath="$PROJECT_DIR$/Minor/templates/story/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/index.html" afterPath="$PROJECT_DIR$/Minor/templates/story/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/recommended.html" afterPath="$PROJECT_DIR$/Minor/templates/story/recommended.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/trending.html" afterPath="$PROJECT_DIR$/Minor/templates/story/trending.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minor/templates/story/update.html" afterPath="$PROJECT_DIR$/Minor/templates/story/update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contributors.txt" afterPath="$PROJECT_DIR$/contributors.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/base.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/changelists.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/changelists.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/fonts.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/forms.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/forms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/login.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/rtl.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/css/widgets.css" afterPath="$PROJECT_DIR$/root/static_cdn/admin/css/widgets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/root/static_cdn/admin/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/fonts/README.txt" afterPath="$PROJECT_DIR$/root/static_cdn/admin/fonts/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/LICENSE" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/README.txt" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/calendar-icons.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/calendar-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/gis/move_vertex_off.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/gis/move_vertex_off.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/gis/move_vertex_on.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/gis/move_vertex_on.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-addlink.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-addlink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-alert.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-alert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-calendar.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-calendar.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-changelink.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-changelink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-clock.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-clock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-deletelink.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-deletelink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-no.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-no.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-unknown-alt.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-unknown-alt.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-unknown.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-unknown.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-yes.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/icon-yes.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/inline-delete.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/inline-delete.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/search.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/search.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/selector-icons.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/selector-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/sorting-icons.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/sorting-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/tooltag-add.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/tooltag-add.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/img/tooltag-arrowright.svg" afterPath="$PROJECT_DIR$/root/static_cdn/admin/img/tooltag-arrowright.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/SelectBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/SelectFilter2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/actions.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/actions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/calendar.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/cancel.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/cancel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/change_form.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/change_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/collapse.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/collapse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/core.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/inlines.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/inlines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/inlines.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/jquery.init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/popup_response.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/popup_response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate_init.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/prepopulate_init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/timeparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/urlify.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/urlify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/xregexp.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/css/app.min.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/css/app.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/css/magnific-popup.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/css/magnific-popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/css/owl.carousel.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/css/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/css/select2.min.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/css/select2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/css/style.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" afterPath="$PROJECT_DIR$/root/static_cdn/assets/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/app.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/app.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/clndr.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/clndr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery-2.2.3.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery-2.2.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.countTo.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.countTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.countdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.dotdotdot.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.dotdotdot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.easypiechart.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.easypiechart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.magnific-popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/jquery.waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/masonry.pkgd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/modernizr-2.8.3.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/modernizr-2.8.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/moment-2.8.3.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/moment-2.8.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/assets/js/underscore-min.js" afterPath="$PROJECT_DIR$/root/static_cdn/assets/js/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/lato.css" afterPath="$PROJECT_DIR$/root/static_cdn/lato.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/raleway.css" afterPath="$PROJECT_DIR$/root/static_cdn/raleway.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/roboto.css" afterPath="$PROJECT_DIR$/root/static_cdn/roboto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/static_cdn/scource.css" afterPath="$PROJECT_DIR$/root/static_cdn/scource.css" />
+    </list>
+    <ignored path="PycharmProjects.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PycharmProjects" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="24" />
+    <option name="width" value="1319" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96584456-fdde-4b65-bbfe-31932a38f85c" name="Default" comment="" />
+      <created>1475675736219</created>
+      <option name="number" value="Default" />
+      <updated>1475675736219</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="24" width="1319" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24564064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Minor/.idea/Minor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minor/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21159874">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
